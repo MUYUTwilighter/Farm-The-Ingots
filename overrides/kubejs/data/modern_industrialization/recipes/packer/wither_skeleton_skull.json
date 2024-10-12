@@ -1,0 +1,23 @@
+{
+    "type": "modern_industrialization:packer",
+    "eu": 8,
+    "duration": 400,
+    "item_inputs": [
+      {
+        "item": "minecraft:skeleton_skull",
+        "amount": 1
+      },
+      {
+        "tag": "c:carbon_dusts",
+        "amount": 8
+      }
+    ],
+    "item_outputs": [
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "amount": 1
+      }
+    ]
+  }
+  
+  

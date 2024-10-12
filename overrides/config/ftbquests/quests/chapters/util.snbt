@@ -1,0 +1,48 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "util"
+	group: ""
+	id: "17F135ED513C6E7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "31DBE67128A47983"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "7DE476CB58BCCA33"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "23E168DFFCDDC843"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "ftbquests change_progress @s complete 3A9124BC99CFC650"
+					id: "186AE0D063285112"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "ftbquests change_progress @s complete 522AD34606F63614"
+					id: "7311AF70F2E4CCE2"
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "43B6E16A01B04F6F"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "util"
+}

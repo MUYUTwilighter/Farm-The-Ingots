@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "croparia:elematilius"
+    },
+    "P": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "D": {
+      "item": "farmersdelight:rich_soil"
+    }
+  },
+  "pattern": [
+    "PIP",
+    "IDI",
+    "PIP"
+  ],
+  "result": {
+    "item": "croparia:croparia"
+  },
+  "show_notification": true
+}

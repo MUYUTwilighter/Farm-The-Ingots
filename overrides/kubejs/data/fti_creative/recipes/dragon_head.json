@@ -1,0 +1,22 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 16384,
+    "duration": 320,
+    "item_inputs": [
+        {
+            "item": "minecraft:dragon_head"
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:uu_matter",
+            "amount": 50
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "minecraft:dragon_head",
+            "amount": 1
+        }
+    ]
+}

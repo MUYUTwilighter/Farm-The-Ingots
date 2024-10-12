@@ -1,0 +1,31 @@
+{
+	"favorites": [
+		"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbchunks:claim_chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map; tint\\\\u003d#FF80FFFF\",\"x\":400,\"click\":\"ftbchunks:open_claim_gui\"}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{commands:[\"fef modern_dynamics render_item toggle\"],title:'{\"text\":\"管道物品渲染\"}',type:\"rei_custom_command:custom-command\"}",
+		"{commands:[\"fef extended_drawers completely_off toggle\"],title:'{\"text\":\"抽屉完全隐藏\"}',type:\"rei_custom_command:custom-command\"}",
+		"{data:{Count:1s,id:\"botania:dice\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1s,id:\"minecraft:stick\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": [
+		"{DisplayHistoryCategory:\"modern_industrialization:bronze_compressor\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"e7942b03-3d1d-4f2e-9d44-f115060426f2\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:multiblock_shapes\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"fe135039-c33a-41a6-bcc4-d5e273d058b9\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:multiblock_shapes\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"192839ce-3b5c-4d8a-a91f-e54ad5c0ee66\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"541c93be-080b-4490-bee5-3e4694280414\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"cf7208cd-666b-44ef-8aa8-62ea2f383564\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:steel_packer\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"2c6eece8-348b-485a-8aa0-6e5134c1457b\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:steel_packer\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"056c3640-1255-42ac-a938-068cc617d63e\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"8443951e-2c7a-4406-8696-b36e8a23e731\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"ee953514-c66a-4bb3-8131-4740686c7381\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"cb760b8e-0034-487a-ad6f-403fc62c435f\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"42c478fe-b34d-4f8d-936e-3f00feefa688\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:chemical_reactor\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"a3f18b61-ff04-4406-b567-d7467c339809\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"683dd0c8-3573-48f6-8139-84c8ac00999b\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"6ceeedc5-8fde-4df8-bcb8-ad39e7c75132\"}",
+		"{DisplayHistoryCategory:\"modern_industrialization:assembler\",DisplayHistoryContains:0b,DisplayHistoryUUID:\"f78389db-b9b9-4632-b924-7fab49b20b3a\"}"
+	]
+}

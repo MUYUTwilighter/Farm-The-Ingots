@@ -1,0 +1,23 @@
+{
+    "type": "modern_industrialization:mixer",
+    "duration": 20,
+    "eu": 16,
+    "item_inputs": [
+        {
+            "amount": 2,
+            "item": "croparia:fruit_rubber_sheet"
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:naphtha",
+            "amount": 600
+        }
+    ],
+    "fluid_outputs": [
+        {
+            "amount": 600,
+            "fluid": "modern_industrialization:styrene_butadiene_rubber"
+        }
+    ]
+}

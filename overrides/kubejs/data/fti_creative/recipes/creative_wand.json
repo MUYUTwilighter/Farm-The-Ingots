@@ -1,0 +1,27 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 16384,
+    "duration": 3200,
+    "item_inputs": [
+        {
+            "item": "minecraft:stick",
+            "amount": 2
+        },
+        {
+            "item": "botania:gaia_head",
+            "amount": 2
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:uu_matter",
+            "amount": 1000
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "wands:creative_wand",
+            "amount": 1
+        }
+    ]
+}

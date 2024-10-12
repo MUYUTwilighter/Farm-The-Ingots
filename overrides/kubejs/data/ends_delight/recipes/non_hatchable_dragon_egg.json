@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "121",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "item": "ad_astra:glacio_cobblestone"
+    },
+    "1": {
+      "item": "minecraft:end_crystal"
+    },
+    "2": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "ends_delight:non_hatchable_dragon_egg"
+  }
+}

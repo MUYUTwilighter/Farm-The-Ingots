@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croparia:croparia2"
+    },
+    {
+      "item": "croparia:croparia2"
+    },
+    {
+      "item": "botania:terrasteel_nugget"
+    }
+  ],
+  "result": {
+    "item": "croparia:croparia3"
+  },
+  "show_notification": true
+}

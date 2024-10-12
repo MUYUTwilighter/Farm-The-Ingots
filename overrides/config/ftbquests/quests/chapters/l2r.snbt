@@ -1,0 +1,454 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "l2r"
+	group: "354592DB49AD64FD"
+	id: "10F62B3CD92EE9D1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"制作任意一个飞行器。"
+				"他们可以帮助你更快的赶路，并提供一定的存储。"
+				"一部分飞行器需要可燃烧的物品作为材料。"
+			]
+			icon: "immersive_aircraft:airship"
+			id: "6B52DDD8CC4A6FE2"
+			optional: true
+			tasks: [{
+				id: "0F42385007B05E79"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "比 384 格更高！"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"05571541428A82C1"
+				"2CCB1F62A633F5F1"
+				"6B52DDD8CC4A6FE2"
+			]
+			description: ["有着很多货箱的飞艇，速度比较慢。"]
+			id: "773980F34052B34C"
+			tasks: [{
+				id: "533CF1FF50DE94A1"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			title: "Farting Ship"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05571541428A82C1"]
+			description: [
+				"在一战中孕育的机械造物，但是似乎它并没有开火的功能。"
+				"速度很快，但是需要非常长的跑道来滑行起飞。"
+			]
+			id: "6BABE1C83CF6ACDC"
+			tasks: [{
+				id: "14A89046F628C7FB"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "木男爵"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"299A3D9549076A81"
+				"05B1C7B54E1EFD5E"
+			]
+			description: ["制作复合面料。"]
+			id: "05571541428A82C1"
+			tasks: [{
+				id: "168C92B68E5D1A19"
+				item: "spontaneous-replace:composite_fabric"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: ["进入沼泽附近的诡异蜘蛛森林，击杀那里的蜘蛛，获得致密蛛丝。"]
+			id: "299A3D9549076A81"
+			tasks: [{
+				id: "18C39BAF2BDBE69E"
+				item: "spontaneous-replace:compact_string"
+				type: "item"
+			}]
+			title: "真的很结实"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["用剪刀破坏黏米蜘蛛网，获得黏米蛛丝"]
+			id: "05B1C7B54E1EFD5E"
+			tasks: [{
+				id: "660DB218ABAE4392"
+				item: "spontaneous-replace:sticky_compact_gossamer"
+				type: "item"
+			}]
+			title: "而且很黏"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: ["在空中无法放置方块？来试试这个！"]
+			icon: "angelblockrenewed:angel_block"
+			id: "338BE50DA6A192AA"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"在空中无法放置方块？来试试天使方块！\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "5EF1B913044180B5"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "7173155DF93CB0A9"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 72000
+			}]
+			title: "天使方块"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			description: ["一个简单的，&5不限种类&f的箭袋"]
+			icon: "simple_quiver:quiver"
+			id: "664B9EBA6ADF932A"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"也许你需要一个不限制种类的箭袋（Quiver）。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "7AB911223224C0C0"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "0A20B1F2C11FCD72"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			title: "箭袋"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			description: ["砂轮在本整合包中可以将附魔从一个物品转移到另一个物品，而不仅仅是将附魔去除。"]
+			icon: "minecraft:grindstone"
+			id: "6D9F76EF5260A74A"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"砂轮在本整合包中可以将附魔从一个物品转移到另一个物品，而不仅仅是将附魔去除。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "3FB2BE060B453792"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "78874E9EAE58564B"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "附魔移植工具"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"玻璃瓶可以在水下充当临时的氧气来源。"
+				"右键即可使用。"
+			]
+			id: "14007D7BF1DB83F6"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"玻璃瓶可以在水下充当临时的氧气来源，右键即可使用。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "6B3E7D0C4971C235"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "3C6354B4813D765F"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			title: "水下氧源"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"手持旅行背包物品并对着空气右键即可打开旅行背包。"
+				"在旅行背包界面中，点击左侧人像图标即可装备到你的身上。"
+				"装备后，按[I]键即可快速打开背包。"
+			]
+			icon: {
+				Count: 1
+				id: "travelersbackpack:standard"
+				tag: { }
+			}
+			id: "2DA86DAB60C966D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"手持旅行背包物品并对着空气右键即可打开旅行背包。\\n在旅行背包界面中，点击左侧人像图标即可装备到你的身上。\\n装备后，按[I]键即可快速打开背包。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "280C297B3441D539"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "4262A3B72A6AD4E6"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "我该如何使用背包？"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			description: ["当你的等级大于30级后，不用担心每一级不断提升的经验需求，因为附魔只会消耗27-30级的经验值，而不是直接扣除3个等级。"]
+			icon: "minecraft:enchanting_table"
+			id: "6DB57544DF107B4D"
+			rewards: [{
+				auto: "no_toast"
+				command: "/tellraw @s [{\"text\":\"当你的等级大于30级后，不用担心每一级不断提升的经验需求，因为附魔只会消耗27-30级的经验值，而不是直接扣除3个等级。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "3309A753815CC456"
+				title: "1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72FA7A591B0F75EC"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "省经验的附魔台"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DB57544DF107B4D"]
+			description: ["一个可以直接对指定附魔进行升级的附魔台。"]
+			id: "1FB21E4970B4549D"
+			tasks: [{
+				id: "1F4C873125EDD77C"
+				item: "tlr:tool_leveling_table"
+				title: "异延锻造"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["你可以使用铁锭右键铁砧进行修复。"]
+			id: "60CE537338B6A54E"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"你可以使用铁锭右键铁砧进行修复。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "0ADFA00A19D20D58"
+				title: "1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "217333DF03500410"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "可修复的铁砧"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["773980F34052B34C"]
+			id: "5933AF147DC1BF3E"
+			tasks: [{
+				id: "0D5E363FD246D8F7"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			title: "敌方钢铁巨兽已部署"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: ["可以自动喂养动物的方块"]
+			icon: "animal_feeding_trough:feeding_trough"
+			id: "3FA6C3174F673EEE"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"手动养殖很麻烦？试一试饲料槽吧！\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "7C54BD8914A5C0CA"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "782B6556560CAB16"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 1
+			}]
+			title: "饲料槽"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "1CA6DB375BBE51FC"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"觉得手动挤奶很麻烦？也许你可以试一试\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"罐中奶牛\",\"color\":\"green\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "7CB4E12DFFFDAF51"
+				title: "1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4407A167E2A2B923"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			description: ["可以提供无限水的方块，可以用作许多机器的输入。"]
+			icon: "cookingforblockheads:sink"
+			id: "06B16CC8C8467736"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"如果你需要大量的流体水输入，你应该试试水槽\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "3DB27D0264EFFA81"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "4CFC1A2B67F95CC8"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "水槽"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"盖建筑需要一些美化装饰？尝试在REI中搜索以下词条"
+				"@beautify"
+				"@chimes"
+				"@handcrafted"
+				"@nightlights"
+			]
+			icon: "minecraft:stripped_oak_wood"
+			id: "533E7327DBFBDBF1"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"盖建筑需要一些美化装饰？尝试在REI中搜索以下词条：\\n@beautify\\n@chimes\\n@handcrafted\\n@nightlights\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "038BA48922F630BA"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "73178431E9363256"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 48000
+			}]
+			title: "建筑美化"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			description: ["一个做饭比较好用的工具"]
+			id: "3B0A71B3875D318A"
+			tasks: [{
+				id: "517DA782EA466B0B"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"在村庄里，你可能会遇到身为附魔师职业的村民。"
+				"使用附魔刷新书对其右键即可刷新它的交易。"
+			]
+			icon: "minecraft:emerald"
+			id: "738EAB04C95B4EA7"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"在村庄里，你可能会遇到身为附魔师职业的村民。\\n使用附魔刷新书对其右键即可刷新它的交易。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "44D502FDBAB32C80"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "5568266C027C742E"
+				stat: "minecraft:talked_to_villager"
+				title: "附魔师"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"可以批量放置方块的工具。"
+				"更高等级的手杖才能够覆盖水方块。"
+			]
+			icon: {
+				Count: 1
+				id: "wands:stone_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0BB07C05C26009BC"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"如果你需要批量放置方块，你也许得试试建筑手杖（Building Wands）。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"更高等级的手杖才能够覆盖水方块。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "799938D336A006DE"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "2448F6EB3BA91866"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 24000
+			}]
+			title: "建筑手杖"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			icon: "revive:revival_star"
+			id: "1DE1768E726D5E2B"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @s [{\"text\":\"倒下了？先别急着重生！\\n你的队友可以制作复活药水（Potion of Revivily）来救你。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "4539C8E545609297"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "73342F139F2379B7"
+				stat: "minecraft:deaths"
+				title: "萨尼铁塔快来扶我！"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["有些东西虽然没有必要，但是很有意思"]
+	title: "&2杂项&r"
+}

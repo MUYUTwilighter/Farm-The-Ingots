@@ -1,0 +1,513 @@
+{
+	autofocus_id: "5B1708934C7164DB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2A4B4335F6C40BDA"
+	group: "6CFF2D7EE9015A43"
+	icon: "modern_industrialization:bronze_boiler"
+	id: "2A4B4335F6C40BDA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在本章节，你会探索植物魔法的前期内容与现代工业化的起步阶段。"
+				"你将会获得植物盆栽，可以用来代替繁琐的矿物处理流程。好好利用它！"
+			]
+			id: "5B1708934C7164DB"
+			tasks: [{
+				id: "0A66BD7FD5F3CC6F"
+				item: "croparia:croparia"
+				type: "item"
+			}]
+			title: "完成第一章"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["504A686B85E77AC1"]
+			dependency_requirement: "one_completed"
+			id: "301DDCA3017A7C4E"
+			optional: true
+			tasks: [{
+				id: "37E73F865AFE5AF7"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B1708934C7164DB"]
+			description: ["各种颜色的神秘花是发展魔法的重要材料，每一种颜色都有各自的用途。"]
+			id: "504A686B85E77AC1"
+			tasks: [{
+				id: "45C42E06403921A9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "神秘花"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["301DDCA3017A7C4E"]
+			description: [
+				"为了制作魔法工具，我们需要将大自然的材料变得富含魔力；而白雏菊便可以将特定的方块变成我们想要的材料。"
+				"为花药台用铁桶装满水，丢入四个白色神秘花瓣，再放入一个小麦种子，就可以得到它。"
+			]
+			id: "71264E55D13029C5"
+			tasks: [{
+				id: "318C7C5041B9558A"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71264E55D13029C5"]
+			description: ["在白雏菊同一高度上 3x3 的范围内放上石头（烧制后的圆石）或者原木，就可以将它们转变为初阶魔力设备需要的重要材料！"]
+			id: "063F9FC0CB9F9019"
+			tasks: [{
+				id: "09C72BF8F1C583E9"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			title: "生机盎然"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["301DDCA3017A7C4E"]
+			id: "377B9BDD57657F81"
+			tasks: [{
+				id: "12A23A7B015A008F"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["063F9FC0CB9F9019"]
+			id: "40A4F07EB5C3378D"
+			tasks: [{
+				id: "1EB58954D781EBFF"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["051F4347A5117421"]
+			description: [
+				"森林法杖是一种调节各种魔力装置属性的工具。"
+				"在默认的绑定模式下，对准一个魔力设施就能看到它的魔力流向，蹲下右键即可设置。"
+			]
+			id: "6A082DF1626DF0E8"
+			tasks: [{
+				id: "4A4626062CFB6F28"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["051F4347A5117421"]
+			id: "7FE24EF255B9861E"
+			tasks: [{
+				id: "6885EBD22679D8EB"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"40A4F07EB5C3378D"
+				"6744A561ED0790EC"
+				"377B9BDD57657F81"
+				"7FE24EF255B9861E"
+			]
+			description: ["将金铜锭丢入有魔力的魔力池，就可以转化成魔力钢锭。"]
+			id: "5E88D7DEE95CDF3D"
+			tasks: [{
+				id: "3F21DC06702BADB8"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E88D7DEE95CDF3D"]
+			description: ["恭喜你完成了第二章，快来看看 T2 魔种都可以制作什么样的作物吧~"]
+			id: "2B8057A37E995979"
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "1E09E7150E426C14"
+				item: "croparia:croparia2"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7AEE3FB6310D4D60"
+				"2FF4DF3941E2F574"
+				"436FE07400191C63"
+			]
+			description: [
+				"蒸汽高炉是一个多方块结构（比如地狱门、潮涌核心等），仅仅拥有一个蒸汽高炉方块是远远不够的"
+				""
+				"首先，你需要在第一层 3x3 的外圈铺上流体输入、流体输出、物品输入、物品输出方块（统称为 IO 方块），位置可以按照需要进行更改。如下方示例："
+				"[|||||][IO][|||||]"
+				"[|||||][|||||][|||||]"
+				"[IO][IO][IO]"
+				"一个蒸汽高炉至少需要一个流体输入、一个流体输出才能正常工作。如果你的 IO 方块数量已经足够了，3x3 区域的空位需要用耐火粘土砖块补齐。"
+				""
+				"在第二层，你需要在 3x3 的外圈选择一个位置放置蒸汽锅炉方块，他是这个多方块结构的核心；其他位置填上耐火粘土砖块，中间留空。如下方示例："
+				"[||||||||][||||||][||||||||]"
+				"[||||||||][|| ||][||||||||]"
+				"[||||||||][CO][||||||||]"
+				""
+				"在第三层和第四层，用耐火砖块围出一个 3x3 的圈即可（中间留空）。其中第三层也可以和第一层一样放上 IO 方块。"
+				""
+				"完成了建造后，右键物品输入仓即可打开物品的输入栏，在其中放置金铜矿，连接蒸汽到流体输出仓后即可开始烧炼。产出的物品会出现在物品输出仓中，右键打开即可拿取。"
+			]
+			id: "6744A561ED0790EC"
+			tasks: [{
+				id: "07F6BFE4BF24F71E"
+				item: "spontaneous-replace:aucu_alloy_ingot"
+				type: "item"
+			}]
+			title: "高炉冶炼"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B68F44672B84ADB"]
+			icon: "modern_industrialization:steam_blast_furnace"
+			id: "7AEE3FB6310D4D60"
+			tasks: [
+				{
+					id: "31C4A700B6B24EE2"
+					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					icon: "modern_industrialization:bronze_fluid_input_hatch"
+					id: "511F5237F8D15A82"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "modern_industrialization:bronze_fluid_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:steel_fluid_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:advanced_fluid_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:turbo_fluid_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:highly_advanced_fluid_input_hatch"
+								}
+							]
+						}
+					}
+					title: "流体输入仓"
+					type: "item"
+				}
+				{
+					icon: "modern_industrialization:bronze_item_input_hatch"
+					id: "5B84CEEEC5C36946"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"物品输入仓\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "modern_industrialization:bronze_item_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:steel_item_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:advanced_item_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:turbo_item_input_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:highly_advanced_item_input_hatch"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "modern_industrialization:bronze_item_output_hatch"
+					id: "7F68ABD3230ECFC0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"物品输出仓\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "modern_industrialization:bronze_item_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:steel_item_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:advanced_item_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:turbo_item_output_hatch"
+								}
+								{
+									Count: 1b
+									id: "modern_industrialization:highly_advanced_item_output_hatch"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "1CEE938621609E2D"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B68F44672B84ADB"]
+			description: [
+				"将水烧成蒸汽的重要方块，是蒸汽时代的心脏。"
+				"输出蒸汽需要流体管道，具体请查看其他的任务。"
+			]
+			id: "2FF4DF3941E2F574"
+			tasks: [{
+				id: "20ABB9957597D7C5"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B1708934C7164DB"]
+			id: "0A3508AB562D7912"
+			tasks: [{
+				id: "47EE0C8C758D0EB1"
+				item: "modern_industrialization:forge_hammer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A3508AB562D7912"]
+			id: "4BF94DEFDE488578"
+			tasks: [{
+				id: "44F0F124592F7473"
+				item: "modern_industrialization:bronze_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BF94DEFDE488578"]
+			id: "2B68F44672B84ADB"
+			tasks: [{
+				id: "6A0D74D79FCD2394"
+				item: "modern_industrialization:bronze_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B68F44672B84ADB"]
+			description: ["青铜是调节各种机器设备的工具，也对建造多方块结构起到了重要的辅助作用。"]
+			id: "15A8A0E5BF36D4C8"
+			tasks: [{
+				id: "375F21F175950853"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B68F44672B84ADB"]
+			description: [
+				"顾名思义，用于运输流体的管道。在使用蒸汽为驱动力的机器时，你需要用它来运输蒸汽。"
+				"默认情况下你需要用扳手来调节管道的输入与输出，才能将其连接到设备上。"
+				"不同种类的管道可以在同一个方块中共存；同种但不同颜色的管道也有相同的性质。"
+			]
+			id: "436FE07400191C63"
+			tasks: [{
+				id: "7054214FE5D93738"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modern_industrialization:fluid_pipes"
+					}
+				}
+				title: "Any #modern_industrialization:fluid_pipes"
+				type: "item"
+			}]
+			title: "流体管道"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6744A561ED0790EC"]
+			description: [
+				"植物盆栽相当有用！将种子放入其中，作物就会慢慢长大，成熟后右键即可获得相应的农作物。"
+				"它还可以升级成可以自动收获的漏斗式植物盆栽，然后实现自动化农场。"
+			]
+			icon: "botanypots:terracotta_botany_pot"
+			id: "2F79834CFC836704"
+			optional: true
+			tasks: [{
+				id: "4D0559F9B4D338CF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:basic_botany_pots"
+					}
+				}
+				title: "Any #botanypots:basic_botany_pots"
+				type: "item"
+			}]
+			title: "植物盆栽"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "1978720899242069"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "641E00E10CCAA433"
+				item: "botania:fertilizer"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCEAE5F4F7948DA"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71264E55D13029C5"]
+			id: "051F4347A5117421"
+			tasks: [{
+				icon: "botania:livingwood_log"
+				id: "0BB31CB3A2B80574"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:livingwood_logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "活木"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B68F44672B84ADB"]
+			description: [
+				"可以抽取无限水并输送给其他机器的装置。"
+				"与锅炉一同使用可以解放用水桶打水的双手。"
+			]
+			id: "207F99BE2F8E39DC"
+			tasks: [{
+				id: "609546785CF36847"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"将稻草块丢入魔力池中，即可直接转换为沃土。"
+				"稻草主要由以下几个方式获得："
+				"1、对成熟的小麦使用刀；"
+				"2、将稻米穗放在砧板上，并对其使用刀。"
+			]
+			id: "5C2D8710B69B37D2"
+			optional: true
+			tasks: [{
+				id: "35C9B48F3F8E0F3D"
+				title: "略微高效的配方"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+	]
+	title: "【第二章】魔法与蒸汽朋克"
+}

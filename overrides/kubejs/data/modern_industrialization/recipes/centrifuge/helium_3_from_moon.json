@@ -1,0 +1,17 @@
+{
+    "type": "modern_industrialization:centrifuge",
+    "duration": 50,
+    "eu": 16,
+    "item_inputs": [
+        {
+            "item": "ad_astra:moon_sand",
+            "amount": 1
+        }
+    ],
+    "fluid_outputs": [
+        {
+            "fluid": "modern_industrialization:helium_3",
+            "amount": 200
+        }
+    ]
+}

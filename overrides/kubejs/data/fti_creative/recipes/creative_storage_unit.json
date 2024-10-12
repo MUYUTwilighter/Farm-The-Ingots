@@ -1,0 +1,26 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 16384,
+    "duration": 3200,
+    "item_inputs": [
+        {
+            "item": "modern_industrialization:superconductor_storage_unit"
+        },
+        {
+            "item": "botania:gaia_head",
+            "amount": 6
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:uu_matter",
+            "amount": 1000
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "modern_industrialization:creative_storage_unit",
+            "amount": 1
+        }
+    ]
+}

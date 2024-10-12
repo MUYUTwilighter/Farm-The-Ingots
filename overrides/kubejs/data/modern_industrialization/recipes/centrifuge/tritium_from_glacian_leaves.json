@@ -1,0 +1,17 @@
+{
+    "type": "modern_industrialization:centrifuge",
+    "duration": 200,
+    "eu": 16,
+    "item_inputs": [
+        {
+            "item": "ad_astra:glacian_leaves",
+            "amount": 1
+        }
+    ],
+    "fluid_outputs": [
+        {
+            "fluid": "modern_industrialization:tritium",
+            "amount": 100
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 16384,
+    "duration": 3200,
+    "item_inputs": [
+        {
+            "item": "botania:fabulous_pool"
+        },
+        {
+            "item": "botania:gaia_head",
+            "amount": 6
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:uu_matter",
+            "amount": 1000
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "botania:creative_pool",
+            "amount": 1
+        }
+    ]
+}

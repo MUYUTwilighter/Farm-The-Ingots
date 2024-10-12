@@ -1,0 +1,23 @@
+{
+    "type": "modern_industrialization:chemical_reactor",
+    "duration": 400,
+    "eu": 32,
+    "item_inputs": [
+        {
+            "tag": "c:chromium_dusts",
+            "amount": 1
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:ethylene",
+            "amount": 4500
+        }
+    ],
+    "fluid_outputs": [
+        {
+            "fluid": "modern_industrialization:polyethylene",
+            "amount": 6300
+        }
+    ]
+}

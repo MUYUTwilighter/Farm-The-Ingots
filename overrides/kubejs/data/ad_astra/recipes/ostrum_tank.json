@@ -1,0 +1,29 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 200,
+    "eu": 32,
+    "item_inputs": [
+        {
+            "item": "ad_astra:ostrum_plate",
+            "amount": 5
+        },
+        {
+            "item": "ad_astra:gas_tank",
+            "amount": 1
+        },
+        {
+            "tag": "c:steel_rods",
+            "amount": 1
+        },
+        {
+            "tag": "c:annealed_copper_plates",
+            "amount": 2
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "ad_astra:ostrum_tank",
+            "amount": 1
+        }
+    ]
+}

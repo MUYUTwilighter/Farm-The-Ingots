@@ -1,0 +1,21 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 200,
+    "eu": 8,
+    "item_inputs": [
+        {
+            "tag": "c:blaze_rods",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:popped_chorus_fruit",
+            "amount": 1
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "minecraft:end_rod",
+            "amount": 4
+        }
+    ]
+  }

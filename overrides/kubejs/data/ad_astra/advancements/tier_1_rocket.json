@@ -1,0 +1,21 @@
+{
+    "parent": "ad_astra:astronaut",
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    },
+    "requirements": [],
+    "rewards": {
+        "experience": 100
+    },
+    "sends_telemetry_event": true
+}

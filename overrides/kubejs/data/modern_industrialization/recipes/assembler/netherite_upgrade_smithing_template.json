@@ -1,0 +1,23 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 8,
+    "duration": 50,
+    "item_inputs": [
+        {
+            "item": "minecraft:diamond",
+            "amount": 7
+        },
+        {
+            "tag": "c:netherrack"
+        },
+        {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "minecraft:netherite_upgrade_smithing_template",
+            "amount": 2
+        }
+    ]
+}

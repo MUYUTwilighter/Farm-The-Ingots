@@ -1,0 +1,34 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 32,
+    "duration": 20,
+    "item_inputs": [
+        {
+            "tag": "botania:ancient_wills"
+        },
+        {
+            "item": "minecraft:dragon_head"
+        },
+        {
+            "item": "ad_astra:ice_shard",
+            "amount": 2
+        },
+        {
+            "item": "fruitfulfun:redlove"
+        },
+        {
+            "item": "minecraft:echo_shard",
+            "amount": 2
+        },
+        {
+            "item": "spontaneous-replace:eerie_rind",
+            "amount": 2
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "botania:gaia_head",
+            "amount": 1
+        }
+    ]
+}

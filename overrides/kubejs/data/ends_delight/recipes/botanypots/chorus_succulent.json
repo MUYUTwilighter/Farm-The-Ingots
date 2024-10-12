@@ -1,0 +1,24 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "ends_delight:chorus_succulent"
+    },
+    "categories": [
+        "end"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "type": "botanypots:simple",
+        "block": "ends_delight:chorus_succulent"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "ends_delight:chorus_succulent"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        }
+    ]
+}

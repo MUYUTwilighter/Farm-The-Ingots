@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "ad_astra:calorite_ingot"
+    }
+  ],
+  "output": [
+    {
+      "item": "botania:dragonstone"
+    }
+  ]
+}

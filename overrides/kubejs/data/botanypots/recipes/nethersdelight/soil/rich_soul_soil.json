@@ -1,0 +1,29 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "nethersdelight:rich_soul_soil"
+            ]
+        }
+    ],
+    "type": "botanypots:soil",
+    "input": {
+        "item": "nethersdelight:rich_soul_soil"
+    },
+    "display": {
+        "block": "nethersdelight:rich_soul_soil"
+    },
+    "categories": [
+        "mushroom",
+        "nether",
+        "podzol",
+        "rich_soul",
+        "soul_sand",
+        "soul_soil",
+        "dirt",
+        "end",
+        "soul_rich_soil"
+    ],
+    "growthModifier": 100
+}

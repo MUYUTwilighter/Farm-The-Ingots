@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:oak_sapling"
+        },
+        {
+            "item": "minecraft:apple"
+        },
+        {
+            "item": "spontaneous-replace:compact_gossamer"
+        }
+    ],
+    "result": {
+        "item": "fruitfulfun:apple_sapling"
+    }
+}

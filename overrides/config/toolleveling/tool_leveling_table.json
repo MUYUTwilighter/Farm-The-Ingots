@@ -1,0 +1,13 @@
+{
+  "__comment": "Checkout 'https://github.com/tristankechlo/ToolLeveling/wiki/General-Config-2.0.0' for more information about this config",
+  "min_success_chance": 75.0,
+  "max_success_chance": 100.0,
+  "required_bookshelves": 20,
+  "required_books": 4,
+  "bonus_item_more_enchantments": {
+    "item": "minecraft:nether_star"
+  },
+  "bonus_item_more_levels": {
+    "item": "minecraft:enchanted_golden_apple"
+  }
+}

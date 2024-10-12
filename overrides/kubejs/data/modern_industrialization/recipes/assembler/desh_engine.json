@@ -1,0 +1,31 @@
+{
+  "type": "modern_industrialization:assembler",
+  "duration": 200,
+  "eu": 8,
+  "item_inputs": [
+      {
+          "item": "ad_astra:desh_plate",
+          "amount": 5
+      },
+      {
+          "item": "ad_astra:engine_frame",
+          "amount": 1
+      },
+      {
+          "item": "ad_astra:fan",
+          "amount": 1
+      }
+  ],
+  "fluid_inputs": [
+      {
+          "fluid": "modern_industrialization:sulfuric_light_fuel",
+          "amount": 100
+      }
+  ],
+  "item_outputs": [
+      {
+          "item": "ad_astra:desh_engine",
+          "amount": 1
+      }
+  ]
+}

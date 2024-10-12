@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:husbandry/tame_an_animal",
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    },
+    "requirements": [],
+    "rewards": {
+        "experience": 50
+    },
+    "sends_telemetry_event": true
+}

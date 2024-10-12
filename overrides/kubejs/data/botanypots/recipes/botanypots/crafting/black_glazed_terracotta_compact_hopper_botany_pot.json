@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "SHS",
+        "SPS",
+        "MSM"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:black_glazed_terracotta"
+        },
+        "P": {
+            "item": "minecraft:flower_pot"
+        },
+        "H": {
+            "item": "minecraft:hopper"
+        },
+        "M": {
+            "item": "spontaneous-replace:aucu_alloy_ingot"
+        }
+    },
+    "result": {
+        "item": "botanypots:black_glazed_terracotta_hopper_botany_pot",
+        "count": 1
+    }
+}

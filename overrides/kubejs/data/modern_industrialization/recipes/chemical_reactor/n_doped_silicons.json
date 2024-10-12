@@ -1,0 +1,21 @@
+{
+    "type": "modern_industrialization:chemical_reactor",
+    "duration": 400,
+    "eu": 32,
+    "item_inputs": [
+        {
+            "tag": "c:silicon_plates",
+            "amount": 9
+        },
+        {
+            "tag": "c:antimony_dusts",
+            "amount": 1
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "modern_industrialization:silicon_n_doped_plate",
+            "amount": 9
+        }
+    ]
+}

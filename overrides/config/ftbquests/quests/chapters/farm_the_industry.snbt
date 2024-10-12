@@ -1,0 +1,405 @@
+{
+	autofocus_id: "07C2E9E73ED7D8D0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farm_the_industry"
+	group: "6CFF2D7EE9015A43"
+	hide_quest_until_deps_visible: true
+	icon: "modern_industrialization:singularity"
+	id: "6287B0556D68AC7B"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48956EF065DD0E8C"]
+			hide: false
+			id: "1BC46E5A20C49CF3"
+			tasks: [{
+				id: "2A1EB78625670240"
+				item: "modern_industrialization:singularity"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "2BF502A2DF633508"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0E55ECB9309087E6"
+				item: "extended_drawers:creative_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "699DBF022BEAC5FE"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0E3BB4C8055DB33B"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "2929611B07E87A89"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "023E3F05EEB2CA80"
+				item: "modern_industrialization:creative_barrel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31DBE67128A47983"]
+			id: "4268F0EF6C67F7F0"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F89FC9B264239AB"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "5C4868D3ADF6F604"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "566D12CAA9D54825"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "7FB29FA8A6B325D3"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7C58B20F374CD885"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "429B015D00686FBF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1187F7F65E2AD6F3"
+				item: "modern_industrialization:creative_storage_unit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "3FA25475649FAE6E"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1005E53EDE9E16EF"
+				item: "modern_industrialization:creative_tank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "07C2E9E73ED7D8D0"
+			invisible: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "5DBC420B52A161BB"
+				type: "dimension"
+			}]
+			title: "开始了！"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07C2E9E73ED7D8D0"]
+			description: ["霜原里常年低温环境下的岩石产物，我们可以利用其中的矿物来制作冷却液。"]
+			id: "0DA25208D31102A1"
+			tasks: [{
+				id: "70499FF43C686D2A"
+				item: "ad_astra:glacio_cobblestone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DA25208D31102A1"]
+			hide: false
+			id: "48956EF065DD0E8C"
+			tasks: [{
+				id: "38BD5AB9FAE0DAC3"
+				item: "modern_industrialization:ultradense_metal_ball"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1BC46E5A20C49CF3"
+				"101727B8AFF76133"
+			]
+			description: [
+				"电流太大了！我们的机器根本无法承受住接下来的产品制造。"
+				"但是没关系，有了量子升级，再大的电流也不怕！"
+			]
+			hide: false
+			id: "3A1FE7A50EF37873"
+			tasks: [{
+				id: "7E0F97F254726869"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DA25208D31102A1"]
+			description: [
+				"准备好面对&c盖亚II&r了嘛？"
+				"或者说也许你有绕过这一强敌的手段……"
+			]
+			hide: false
+			id: "37935507F209BDD6"
+			tasks: [{
+				id: "5F787B4222D87719"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6783A934D875508F"
+				"722F5F7C5CEF6F5D"
+			]
+			hide: false
+			id: "2687CF8717E19309"
+			tasks: [{
+				id: "2F63031A4DF7DED2"
+				item: "botania:gaia_head"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A1FE7A50EF37873"]
+			hide: false
+			id: "6783A934D875508F"
+			tasks: [{
+				id: "6FA72DDE26A33941"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "2B243569758B7889"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7D2B0C794A84C8EC"
+				item: {
+					Count: 1
+					id: "wands:creative_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "61F402A702102B12"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "12579C0610C3D26A"
+				item: "botania:corporea_spark_creative"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7DE476CB58BCCA33"
+				"1BC46E5A20C49CF3"
+				"3A1FE7A50EF37873"
+			]
+			hide: true
+			id: "546ED623528350FA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3C4F33DB88ABCDEE"
+				item: "nethersdelight:rich_soul_soil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3685D89451002ECA"
+				"259ADACB41C58EC4"
+				"7EB4F4ADC3C83B33"
+			]
+			hide: false
+			id: "101727B8AFF76133"
+			tasks: [{
+				id: "18D2E2D4490A8613"
+				item: "nethersdelight:mimicarnation"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "7EB4F4ADC3C83B33"
+			tasks: [{
+				id: "5E83FF40FDCC93C6"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7DE476CB58BCCA33"]
+			id: "259ADACB41C58EC4"
+			tasks: [{
+				id: "1087AF9C60233C70"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DA25208D31102A1"]
+			hide: false
+			id: "3685D89451002ECA"
+			tasks: [{
+				id: "4CCCD185458840C6"
+				item: "ends_delight:steamed_dragon_egg_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37935507F209BDD6"]
+			description: [
+				"不论你用了什么方式得到了这个，这种物质都蕴含着无法解释的强大的非自然能量场。"
+				"虽然我们不能用它发电，但是它将打破我们与&d创造无限物质&r的一大障壁。"
+			]
+			hide: false
+			id: "722F5F7C5CEF6F5D"
+			tasks: [{
+				id: "6D24A2323E95DCCC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:ancient_wills"
+					}
+				}
+				title: "Any #botania:ancient_wills"
+				type: "item"
+			}]
+			title: "未能解释的高能现象"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07C2E9E73ED7D8D0"]
+			description: ["尽管霜原星球看起来死气沉沉，但是这些冻土似乎蕴藏着来自远古的种子。"]
+			hide: false
+			id: "06E6ABA567044A99"
+			tasks: [{
+				id: "4FBEA88B35EADF44"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06E6ABA567044A99"]
+			description: [
+				"你成功从冻土中培养出了霜原木！"
+				""
+				"这种神奇树木的叶子似乎会富集空气中的快中子，并存储在从冻土中富集的质子中。"
+				"简而言之，我们可以利用它来量产氚！"
+			]
+			hide: false
+			id: "347DFDE473E65EB8"
+			tasks: [{
+				id: "54A5763424E04E5D"
+				item: "ad_astra:glacian_leaves"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06E6ABA567044A99"]
+			description: [
+				"你成功从冻土中培养出了霜原木！"
+				""
+				"这种神奇树木的木干具有极强的降温作用，可以用作主动隔热材料，代替一些配方需要的冷却单元。"
+			]
+			hide: false
+			id: "0038089016A64EA5"
+			optional: true
+			tasks: [{
+				id: "3237D2187E8A1A71"
+				item: "ad_astra:glacian_log"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+	]
+	title: "【终章】Farm The Creativity"
+}

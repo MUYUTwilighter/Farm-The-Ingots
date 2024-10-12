@@ -1,0 +1,39 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 32,
+    "duration": 400,
+    "item_inputs": [
+        {
+            "item": "modern_industrialization:arithmetic_logic_unit",
+            "amount": 8
+        },
+        {
+            "tag": "c:carbon_plates",
+            "amount": 8
+        },
+        {
+            "tag": "c:glass_blocks",
+            "amount": 3
+        },
+        {
+            "item": "modern_industrialization:superconductor_wire",
+            "amount": 24
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:cryofluid",
+            "amount": 1000
+        },
+        {
+            "fluid": "modern_industrialization:tritium",
+            "amount": 200
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "modern_industrialization:qbit",
+            "amount": 4
+        }
+    ]
+}

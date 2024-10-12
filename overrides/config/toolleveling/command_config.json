@@ -1,0 +1,8 @@
+{
+  "__comment": "Checkout 'https://github.com/tristankechlo/ToolLeveling/wiki/Command-Config-2.0.0' for more information about this config",
+  "superenchant": {
+    "__comment": "This config is for the /superenchant command",
+    "allow_wrong_enchantments": true,
+    "allow_incompatible_enchantments": true
+  }
+}
