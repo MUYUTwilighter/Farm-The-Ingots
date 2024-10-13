@@ -11,6 +11,25 @@ With farming, you could build grand multi-block machines, explore all the danger
 
 This modpack contains full guidance (including issue resolver) in the FTB quest book, so you really need to read that book very often.
 
+# Installation
+
+You are suggested to use [Hello! Minecraft Launcher 3](https://github.com/HMCL-dev/HMCL/releases).
+
+1. Download the latest version of the modpack zip.
+2. Drag the zip file into HMCL.
+
+# Optinal Features
+
+1. Distant Horizon is capatible with client! Download [here](https://www.curseforge.com/minecraft/mc-mods/distant-horizons/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=4) or [here](https://modrinth.com/mod/distanthorizons/versions?g=1.20.1&l=fabric) then put the file into `<GameDir/mods>`.
+2. Full resource pack feature is supported. Find and download resource pack [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=texture-packs) or [here](https://modrinth.com/resourcepacks), then put the downloaded files into `<GameDir>/resourcepacks`.
+3. Shaders are supported by default but you need to download from [here](https://modrinth.com/shaders) and [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=shaders), then put the downloaded files into `<GameDir>/shaderpacks`.
+
+# Server
+
+1. Download and run latest fabric server installer **for 1.20.1** from [fabric.net](https://fabricmc.net/use/server/)
+2. Move files inside `./overrides` into your server folder, the `mods`, `crops`, etc. should be in the same position as the server jar.
+3. Run like any other mc server!
+
 # License
 
 **DO NOT DISTRIBUTE ANY FILE WITHOUT PERMISSION**

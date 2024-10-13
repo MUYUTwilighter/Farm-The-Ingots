@@ -1,4 +1,10 @@
 {
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Farm The Ingots",
+  "version": "0.1.0",
+  "author": "MUYU_Twilighter",
+  "overrides": "overrides",
   "minecraft": {
     "version": "1.20.1",
     "modLoaders": [
@@ -8,11 +14,6 @@
       }
     ]
   },
-  "manifestType": "minecraftModpack",
-  "manifestVersion": 1,
-  "name": "Farm The Ingots",
-  "version": "0.1.0",
-  "author": "",
   "files": [
     {
       "projectID": 447673,
@@ -640,11 +641,6 @@
       "required": true
     },
     {
-      "projectID": 508933,
-      "fileID": 5474790,
-      "required": true
-    },
-    {
       "projectID": 303119,
       "fileID": 4780782,
       "required": true
@@ -939,6 +935,5 @@
       "fileID": 4984047,
       "required": true
     }
-  ],
-  "overrides": "overrides"
+  ]
 }
