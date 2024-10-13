@@ -7,6 +7,8 @@ This is a fabric modpack on Minecraft 1.20.1, focusing on Tech and Farming.
 In this modpack, you can literally plant every minerals from all kinds of magic seeds.
 With farming, you could build grand multi-block machines, explore all the danger, and even go to the space!
 
+![](cover.png)
+
 This modpack contains full guidance (including issue resolver) in the FTB quest book, so you really need to read that book very often.
 
 # License
