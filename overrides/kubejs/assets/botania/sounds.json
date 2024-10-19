@@ -1,0 +1,20 @@
+{
+	"music.gaia1": {
+		"sounds": [
+			{
+				"name": "fti:music/track3",
+				"stream": true,
+                "volume": 0.4
+			}
+		]
+	},
+	"music.gaia2": {
+		"sounds": [
+			{
+				"name": "fti:music/track2",
+				"stream": true,
+                "volume": 0.4
+			}
+		]
+	}
+}
