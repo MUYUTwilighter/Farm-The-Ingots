@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [],
+    "rewards": {
+        "recipes": [
+            "ad_astra:compressing/ostrum_plate_from_compressing_ostrum_blocks"
+        ]
+    },
+    "sends_telemetry_event": true,
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    }
+}

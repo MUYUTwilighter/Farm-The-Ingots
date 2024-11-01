@@ -1,0 +1,16 @@
+{
+    "type": "modern_industrialization:packer",
+    "eu": 2,
+    "duration": 20,
+    "item_inputs": [
+        {
+            "item": "croparia:fruit_uranium"
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "modern_industrialization:uranium_ingot",
+            "amount": 2
+        }
+    ]
+}

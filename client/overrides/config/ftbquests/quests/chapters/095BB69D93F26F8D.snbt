@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "095BB69D93F26F8D"
+	group: "6CFF2D7EE9015A43"
+	icon: "minecraft:bookshelf"
+	id: "095BB69D93F26F8D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在你的背包右侧，有一个陈列了许多物品的区域，这便是强大的&l&2Roughly Enough Item&r！"
+				""
+				"&l&2REI&r提供了物品查询、配方检索等重要功能，是制作各类材料的重要辅助工具。"
+				""
+				"按&l&6[E]&r键打开物品栏后你会发现背包的右侧会展示许多不同的物品，屏幕的底部有一个搜索框，在其中输入文字就可以搜索物品，搜索的结果在右侧的列表中会展示出来。&7（搜索框可能在正中间也可能在右下角，这取决于你的mod设置）&r"
+				""
+				"默认情况下将鼠标悬停在物品上并按下&l&6[T]&r键可以查看该物品是如何制作的，使用&l&6[U]&r键则可以查看该物品可以用来做什么。绑定的按键可以在游戏设置中修改。"
+				""
+				"在查阅配方的时候，你可以直接将配方页面拖拽至左上角，让配方完整地&6悬挂&f在物品栏中。"
+				""
+				"由于该整合包对配方做出了很多修改，模组配备的任务书可能并不正确（或者没有显示配方），请以 REI 的显示结果为准。"
+			]
+			icon: "minecraft:writable_book"
+			id: "159CE58A897A956F"
+			tasks: [
+				{
+					id: "7671A53438E8C281"
+					title: "关于REI"
+					type: "checkmark"
+				}
+				{
+					id: "4D0982C767499932"
+					title: "我已仔细阅读"
+					type: "checkmark"
+				}
+				{
+					id: "14D6DB9EF46B1E64"
+					title: "我真的读了"
+					type: "checkmark"
+				}
+			]
+			title: "&l&6！REI！&r"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"这是&l&2REI&r的物品高亮功能，让你的物品栏只高亮被包含在搜索结果中的物品，其余物品全部抹黑，这可以快速的帮你在箱子或背包中找到想要的物品。"
+				""
+				"如果想关闭该功能，&l&n&a双击搜索框&r即可。"
+			]
+			id: "3420D9132585F695"
+			tasks: [{
+				id: "54C757394310341A"
+				title: "物品栏变得全黑了？"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"如果你害怕失去任务书，可以来这里多领几本。"
+				""
+				"PS：物品栏的左上角也可以打开任务书"
+			]
+			icon: "ftbquests:book"
+			id: "2DA687161BEA09DA"
+			optional: true
+			rewards: [{
+				id: "157E6D0FCEA82DCB"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5E6518983D8ACE"
+				title: "啊对对对"
+				type: "checkmark"
+			}]
+			title: "任务书"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F123B5BAE44A895"
+			optional: true
+			tasks: [{
+				id: "3165CCFB1FAAD7C1"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "6279A1E6A7EEC99C"
+			rewards: [
+				{
+					id: "09E3D81821D1BCED"
+					item: {
+						Count: 1
+						id: "travelersbackpack:standard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09836FE409AE650A"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A9E479FED62B830"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A9F56671B01C7B"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30A161958EFC71A0"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "648A55DEF5A23391"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "新手装备"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"某些机器的配方可能存在原料种类相同，但是数量不同的情况；这导致了常规操作下某些配方无法被调用。"
+				"此时，你只需要利用 REI 的配方悬挂功能。首先，将机器右上角的锁定编辑打开（不需要按Shift）；其次，将悬挂配方中的物品拖拽至现代工业化的机器的产出栏，并将其他不需要用的栏位锁定（空手左键）；最后，将原料产物放入原料输入栏，并 Shift + 左击 机器右上角的锁定编辑按钮即可。"
+			]
+			icon: "modern_industrialization:electrolyzer"
+			id: "6937C8BB820C51B3"
+			tasks: [{
+				id: "56F455C179996DB2"
+				title: "机器的产物不是我想要的？"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"按住[`]（左侧数字1键左边的键）即可开启连锁采矿。"
+				"潜行的同时按住[`]后，使用滚轮可切换连锁模式。"
+			]
+			id: "73B20F287143321C"
+			tasks: [{
+				id: "4E277F214F53CB04"
+				title: "连锁采矿"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"在物品栏的右上角有一个旋钮开关，它可以让你切换快捷栏。"
+				"打开快捷栏旋钮后，在右侧，有一些背景是工具轮廓的栏位。放上对应的工具后，就可以在挖掘方块或者攻击生物时自动切换到对应的栏位。"
+			]
+			id: "58833FE9C82CF879"
+			tasks: [{
+				id: "381293DE634998C4"
+				title: "物品栏"
+				type: "checkmark"
+			}]
+			title: "快捷物品栏"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["按[Esc]打开游戏菜单，有一个[预览世界]按钮。你可以在其中寻找各种生物群系与生成结构。"]
+			id: "52047F7F63B72BF1"
+			tasks: [{
+				id: "5A6B964F86E45609"
+				title: "找不到想要的结构？"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["遇到的各种奇怪问题先来这边看看有没有解决方案"]
+	title: "&l&6【第零章】快速帮助页面&r"
+}

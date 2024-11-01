@@ -1,0 +1,11 @@
+{
+    "music.glacio": {
+        "sounds": [
+            {
+                "name": "fti:music/track1",
+                "stream": true,
+                "volume": 0.4
+            }
+        ]
+    }
+}

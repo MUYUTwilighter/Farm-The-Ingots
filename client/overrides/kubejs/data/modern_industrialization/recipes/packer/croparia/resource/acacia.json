@@ -1,0 +1,16 @@
+{
+    "type": "modern_industrialization:packer",
+    "eu": 2,
+    "duration": 20,
+    "item_inputs": [
+        {
+            "item": "croparia:fruit_acacia"
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "minecraft:acacia_planks",
+            "amount": 2
+        }
+    ]
+}

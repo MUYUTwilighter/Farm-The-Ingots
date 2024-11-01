@@ -1,0 +1,55 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:any_mod_loaded",
+            "values": [
+                "botanypots"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "fruitfulfun:pomegranate_sapling"
+    },
+    "categories": [
+        "dirt",
+        "farmland"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "type": "botanypots:simple",
+        "block": "fruitfulfun:pomegranate_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "minecraft:jungle_log"
+            },
+            "minRolls": 2,
+            "maxRolls": 4
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "fruitfulfun:pomegranate_sapling"
+            }
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "fruitfulfun:pomegranate"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}

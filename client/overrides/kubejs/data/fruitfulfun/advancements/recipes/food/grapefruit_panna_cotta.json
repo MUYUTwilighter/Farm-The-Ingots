@@ -1,0 +1,36 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "kiwi:is_loaded",
+            "module": "fruitfulfun:food"
+        },
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "kiwi:is_loaded",
+                "module": "fruitfulfun:farmersdelight"
+            }
+        }
+    ],
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [],
+    "rewards": {
+        "recipes": [
+            "fruitfulfun:grapefruit_panna_cotta"
+        ]
+    },
+    "sends_telemetry_event": false,
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    }
+}

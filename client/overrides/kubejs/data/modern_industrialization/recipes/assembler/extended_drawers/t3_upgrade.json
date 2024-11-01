@@ -1,0 +1,25 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 200,
+    "eu": 8,
+    "item_inputs": [
+        {
+            "tag": "c:diamond_blocks",
+            "amount": 1
+        },
+        {
+            "tag": "c:blaze_rods",
+            "amount": 6
+        },
+        {
+            "item": "extended_drawers:t2_upgrade",
+            "amount": 2
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "extended_drawers:t3_upgrade",
+            "amount": 1
+        }
+    ]
+  }

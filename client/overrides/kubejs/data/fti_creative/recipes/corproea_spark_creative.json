@@ -1,0 +1,26 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 16384,
+    "duration": 3200,
+    "item_inputs": [
+        {
+            "item": "botania:corporea_spark_master"
+        },
+        {
+            "item": "botania:gaia_head",
+            "amount": 1
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "fluid": "modern_industrialization:uu_matter",
+            "amount": 500
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "botania:corporea_spark_creative",
+            "amount": 1
+        }
+    ]
+}

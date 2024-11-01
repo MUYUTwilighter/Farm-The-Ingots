@@ -1,0 +1,17 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 50,
+    "eu": 8,
+    "item_inputs": [
+        {
+            "item": "botania:shimmerrock",
+            "amount": 5
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "botania:fabulous_pool",
+            "amount": 1
+        }
+    ]
+  }

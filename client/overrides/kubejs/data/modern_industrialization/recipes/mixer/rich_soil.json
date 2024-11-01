@@ -1,0 +1,23 @@
+{
+    "type": "modern_industrialization:mixer",
+    "duration": 400,
+    "eu": 2,
+    "item_inputs": [
+        {
+            "amount": 1,
+            "tag": "minecraft:dirt"
+        }
+    ],
+    "fluid_inputs": [
+        {
+            "amount": 300,
+            "fluid": "modern_industrialization:plant_oil"
+        }
+    ],
+    "item_outputs": [
+        {
+            "amount": 1,
+            "item": "farmersdelight:rich_soil"
+        }
+    ]
+}

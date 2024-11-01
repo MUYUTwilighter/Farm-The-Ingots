@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "L": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "pattern": [
+        "L L",
+        " L "
+    ],
+    "result": {
+        "item": "minecraft:bowl",
+        "count": 16
+    }
+}

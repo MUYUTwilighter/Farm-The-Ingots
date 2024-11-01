@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croparia:croparia"
+    },
+    {
+      "item": "croparia:croparia"
+    },
+    {
+      "item": "botania:manasteel_ingot"
+    }
+  ],
+  "result": {
+    "item": "croparia:croparia2"
+  }
+}

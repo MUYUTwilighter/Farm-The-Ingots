@@ -1,0 +1,17 @@
+{
+    "type": "modern_industrialization:blast_furnace",
+    "eu": 4,
+    "duration": 1800,
+    "item_inputs": [
+        {
+            "item": "spontaneous-replace:aucu_alloy_block",
+            "amount": 1
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "spontaneous-replace:aucu_block",
+            "amount": 1
+        }
+    ]
+}

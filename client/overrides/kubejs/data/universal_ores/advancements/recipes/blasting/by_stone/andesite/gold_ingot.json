@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "universal_ores:blasting/by_stone/andesite/gold_ingot"
+        ]
+    },
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [],
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croparia:croparia4"
+    },
+    {
+      "item": "croparia:croparia4"
+    },
+    {
+      "item": "ad_astra:ostrum_ingot"
+    }
+  ],
+  "result": {
+    "item": "croparia:croparia5"
+  },
+  "show_notification": true
+}

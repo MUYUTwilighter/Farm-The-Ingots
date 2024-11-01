@@ -1,0 +1,25 @@
+{
+    "type": "modern_industrialization:vacuum_freezer",
+    "eu": 32,
+    "duration": 100,
+    "item_inputs": {
+      "item": "ad_astra:glacio_cobblestone"
+    },
+    "fluid_inputs": [
+      {
+        "fluid": "modern_industrialization:nitrogen",
+        "amount": 500
+      },
+      {
+        "fluid": "modern_industrialization:oxygen",
+        "amount": 200
+      }
+    ],
+    "fluid_outputs": [
+      {
+        "fluid": "modern_industrialization:cryofluid",
+        "amount": 1000
+      }
+    ]
+  }
+  

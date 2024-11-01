@@ -1,0 +1,20 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 50,
+    "eu": 8,
+    "item_inputs": [
+        {
+            "item": "expandedstorage:iron_chest"
+        },
+        {
+            "tag": "c:gold_ingots",
+            "amount": 8
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "expandedstorage:gold_chest",
+            "amount": 1
+        }
+    ]
+  }

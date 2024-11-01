@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "6CFF2D7EE9015A43", title: "主线任务" }
+		{ id: "354592DB49AD64FD", title: "支线引导" }
+		{ id: "7D1B373B3D27E3AA", title: "进阶引导" }
+		{ id: "6B446C6ED1DFF22B", title: "其它" }
+	]
+}

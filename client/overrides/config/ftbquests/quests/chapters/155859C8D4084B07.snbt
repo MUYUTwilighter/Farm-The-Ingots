@@ -1,0 +1,428 @@
+{
+	autofocus_id: "55E16898926B8B7B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "155859C8D4084B07"
+	group: "6CFF2D7EE9015A43"
+	icon: "ad_astra:moon_globe"
+	id: "155859C8D4084B07"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F2F000D12361030"]
+			description: [
+				"在本章节，你将正式开始现代工业化与航天事业。"
+				"你将会从蒸汽阶段开始向电力时代过渡，你会用到许许多多的机器与多方块结构。"
+			]
+			icon: "croparia:croparia3"
+			id: "55E16898926B8B7B"
+			tasks: [{
+				id: "592C11902A98F5C3"
+				item: "croparia:croparia3"
+				type: "item"
+			}]
+			title: "奔向太空"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2CBA812190A35FB9"
+				"22802B64F014DB91"
+			]
+			id: "25A25FD367C1FB9D"
+			shape: "square"
+			size: 1.2d
+			tasks: [{
+				id: "08174F5AE99BC103"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["732623261B5FCC82"]
+			id: "1FC84FE4A42F0D8D"
+			shape: "square"
+			size: 1.2d
+			tasks: [{
+				id: "7E747207084A0BA3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:steel_ingots"
+					}
+				}
+				title: "Any #c:steel_ingots"
+				type: "item"
+			}]
+			title: "钢"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FC84FE4A42F0D8D"]
+			id: "1EA5CD2757562583"
+			tasks: [
+				{
+					id: "3C568E18D01C5761"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69F5F355762B61EF"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FC84FE4A42F0D8D"]
+			description: ["还记得你生产橡胶时使用的合成油嘛？看来在弄不到原油的情况下只能使用它来制作燃油了。"]
+			id: "62450E9B465DB16C"
+			tasks: [{
+				id: "1DD64DF5B6431F3B"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1EA5CD2757562583"
+				"62450E9B465DB16C"
+				"202CBB313277CFF7"
+				"35866EC7EDABFE24"
+				"25A25FD367C1FB9D"
+			]
+			description: [
+				"恭喜你即将迈入太空！"
+				""
+				"不过在此之前，请准备好以下任意一个事项："
+				"1、在主世界中使用 /sethome 指令来设置传送点，在太空中想要返回地球时使用 /home 指令即可传送回来。"
+				"2、使用任意的储罐储备好燃油，并额外准备一个发射平台以在月球上发射火箭并返回。"
+				""
+				"此外，根据 FTI 天文台探测信息，月球上存在着一种可以远程攻击的生物。因此我们强烈建议你带上一些远程武器。"
+			]
+			id: "3CED461ED97CC726"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "0977A9FD8FD880C7"
+				type: "dimension"
+			}]
+			title: "飞入太空"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CED461ED97CC726"]
+			id: "695B1A84738549C5"
+			tasks: [{
+				id: "18A01BF63137491B"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			title: "戴斯"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["695B1A84738549C5"]
+			description: ["恭喜你完成了第四章，快来看看 T4 魔种都可以制作什么样的作物吧~"]
+			id: "6E7DDF8301F46FC5"
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				id: "735917A65A62DA59"
+				item: "croparia:croparia4"
+				type: "item"
+			}]
+			title: "完成第四章"
+			x: 16.2d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FC84FE4A42F0D8D"]
+			id: "172D9594DFEA8DE9"
+			tasks: [{
+				id: "026E8B36D6F3DC17"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "76C332DC2A016BD8"
+			tasks: [{
+				id: "2FD58B525CAABBEC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modern_industrialization:bronze_mixer"
+							}
+							{
+								Count: 1b
+								id: "modern_industrialization:steel_mixer"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "搅拌机"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "123D16BA8D54479E"
+			tasks: [{
+				id: "304148F5D1D56FD0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modern_industrialization:bronze_macerator"
+							}
+							{
+								Count: 1b
+								id: "modern_industrialization:steel_macerator"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "研磨机"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5146069DD6A3C1B1"]
+			id: "335A9FF4839C78F1"
+			tasks: [{
+				id: "4D04572A9BB0B3BE"
+				item: "modern_industrialization:coke"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55E16898926B8B7B"]
+			description: [
+				"焦炉与高炉一样，是一种多方块结构。"
+				"他和蒸汽高炉的结构非常像，同样需要 IO 方块，只不过把耐火粘土砖块替换成了普通砖块，核心换成焦炉方块，并且只需要盖三层即可。"
+			]
+			id: "5146069DD6A3C1B1"
+			tasks: [{
+				id: "175FF15F02786B62"
+				item: "modern_industrialization:coke_oven"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FC84FE4A42F0D8D"]
+			id: "35866EC7EDABFE24"
+			tasks: [
+				{
+					id: "7E61965B894D3F69"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C45E483A049E9B2"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79A5B20262A7DA40"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63ACBA0D5A63124D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "航天服"
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1FC84FE4A42F0D8D"]
+			id: "202CBB313277CFF7"
+			tasks: [{
+				id: "179F451052707BB8"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FC84FE4A42F0D8D"]
+			description: ["使用钢打包机可以将干草捆直接合成沃土。"]
+			id: "2590AC4C615F5A06"
+			optional: true
+			tasks: [{
+				id: "5390010B88F24029"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			title: "更高效的合成配方！"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["335A9FF4839C78F1"]
+			id: "732623261B5FCC82"
+			tasks: [{
+				id: "3441C70DF412DA73"
+				item: "modern_industrialization:uncooked_steel_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76C332DC2A016BD8"]
+			id: "05D7463EED0480D8"
+			tasks: [{
+				id: "7C4583057A9D57F7"
+				item: "modern_industrialization:rubber_sheet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"05D7463EED0480D8"
+				"172D9594DFEA8DE9"
+			]
+			description: ["准备进入电力初期的时候，多制作一点锡线缆。这种线缆在整个前期都会使用到。"]
+			id: "2CBA812190A35FB9"
+			tasks: [{
+				id: "00E6B7FFCDA61B53"
+				item: "modern_industrialization:tin_cable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"123D16BA8D54479E"
+				"76C332DC2A016BD8"
+			]
+			id: "37FDFF9886A4D65B"
+			tasks: [{
+				id: "5F94D7024043E454"
+				item: "modern_industrialization:battery_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"05D7463EED0480D8"
+				"37FDFF9886A4D65B"
+			]
+			id: "22802B64F014DB91"
+			tasks: [{
+				id: "1580DC6D1FC11335"
+				item: "modern_industrialization:basic_machine_hull"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"15A8A0E5BF36D4C8"
+				"1FC84FE4A42F0D8D"
+			]
+			description: [
+				"多种多样的物品管道可以用于在不同的容器与机器间运输物品，是实现自动化的重要方块。"
+				"连接方法详见流体管道的任务。"
+			]
+			icon: "modern_industrialization:item_pipe"
+			id: "4C76F59E345E2C28"
+			optional: true
+			tasks: [{
+				id: "3F4C2A509FA5ADFD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "modern_industrialization:item_pipes"
+					}
+				}
+				title: "Any #modern_industrialization:item_pipes"
+				type: "item"
+			}]
+			title: "物品管道"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["695B1A84738549C5"]
+			id: "6CAAB4BFBA71B916"
+			optional: true
+			tasks: [{
+				id: "032B2101815651C7"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+	]
+	title: "【第四章】月球是个大奶酪"
+}

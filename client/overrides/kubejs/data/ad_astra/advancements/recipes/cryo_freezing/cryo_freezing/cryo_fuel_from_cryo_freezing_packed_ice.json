@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [],
+    "rewards": {
+        "recipes": [
+            "ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_packed_ice"
+        ]
+    },
+    "sends_telemetry_event": true,
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": {
+        "item": "minecraft:bedrock"
+      },
+      "C": {
+        "item": "minecraft:bedrock"
+      },
+      "F": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "pattern": [
+      "###",
+      "CFC",
+      "###"
+    ],
+    "result": {
+      "item": "minecraft:bedrock"
+    },
+    "show_notification": true
+  }

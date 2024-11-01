@@ -1,0 +1,72 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "croparia:seed_crop_dragon"
+    },
+    "categories": [
+        "end"
+    ],
+    "growthTicks": 12000,
+    "display": {
+        "type": "botanypots:simple",
+        "block": "minecraft:dragon_egg"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "croparia:fruit_dragon"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "croparia:seed_crop_dragon"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "ends_delight:dragon_leg"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "ends_delight:dragon_tooth"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.3,
+            "output": {
+                "item": "ends_delight:dragon_tooth"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "ends_delight:raw_dragon_meat"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "ends_delight:raw_dragon_meat"
+            },
+            "minRolls": 0,
+            "maxRolls": 2
+        }
+    ]
+}

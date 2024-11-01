@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "spontaneous-replace:aucu_alloy_ingot"
+  },
+  "mana": 3000,
+  "output": {
+    "item": "botania:manasteel_ingot"
+  }
+}

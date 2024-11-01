@@ -1,0 +1,53 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:or",
+            "values": [
+                {
+                    "condition": "fabric:tags_populated",
+                    "values": [
+                        "c:grain/rice"
+                    ]
+                },
+                {
+                    "condition": "fabric:tags_populated",
+                    "values": [
+                        "c:seeds/rice"
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "kiwi:is_loaded",
+            "module": "fruitfulfun:food"
+        },
+        {
+            "condition": "fabric:not",
+            "value": {
+                "condition": "kiwi:is_loaded",
+                "module": "fruitfulfun:farmersdelight"
+            }
+        }
+    ],
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "disable": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [],
+    "rewards": {
+        "recipes": [
+            "fruitfulfun:rice_with_fruits"
+        ]
+    },
+    "sends_telemetry_event": false,
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "hidden": true,
+        "title": "Disabled",
+        "description": "Please go to FTB Quests in Inventory for guidance"
+    }
+}

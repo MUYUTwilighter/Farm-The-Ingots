@@ -1,0 +1,8 @@
+
+#JEI Settings
+[jei]
+
+	[jei.jei]
+		# Enable or disable the Click Area inside the GUI in all of BetterFurnaces furnaces and forges.
+		enable_jei_click_area = true
+

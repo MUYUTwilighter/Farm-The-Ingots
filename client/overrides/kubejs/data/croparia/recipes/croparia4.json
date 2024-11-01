@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "croparia:croparia3"
+    },
+    {
+      "item": "croparia:croparia3"
+    },
+    {
+      "item": "ad_astra:desh_ingot"
+    }
+  ],
+  "result": {
+    "item": "croparia:croparia4"
+  },
+  "show_notification": true
+}

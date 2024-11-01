@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "P": {
+            "tag": "c:nickel_ingots"
+        },
+        "I": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "D": {
+            "item": "croparia:croparia4"
+        }
+    },
+    "pattern": [
+        "PIP",
+        "IDI",
+        "PIP"
+    ],
+    "result": {
+        "item": "croparia:seed_crop_nickel"
+    }
+}

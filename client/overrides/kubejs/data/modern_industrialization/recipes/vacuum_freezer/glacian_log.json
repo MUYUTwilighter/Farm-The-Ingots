@@ -1,0 +1,28 @@
+{
+  "type": "modern_industrialization:vacuum_freezer",
+  "eu": 32,
+  "duration": 100,
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 100
+    }
+  ],
+  "item_inputs": [
+    {
+      "amount": 1,
+      "item": "ad_astra:permafrost",
+      "probability": 0
+    },
+    {
+      "amount": 1,
+      "item": "ad_astra:ice_shard"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "ad_astra:glacian_log",
+      "amount": 1
+    }
+  ]
+}

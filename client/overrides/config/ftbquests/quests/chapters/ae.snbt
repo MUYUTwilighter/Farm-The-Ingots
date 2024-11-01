@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae"
+	group: "7D1B373B3D27E3AA"
+	icon: "ae2:controller"
+	id: "396C0FA9CF051CCD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "455C75FACA465AC3"
+			tasks: [{
+				id: "44CD4412E10A37D4"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "0C4EDB6189E05813"
+			tasks: [{
+				id: "679D318BC6CA1475"
+				item: "extended_drawers:access_point"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"455C75FACA465AC3"
+				"0C4EDB6189E05813"
+				"54969ACE41027F24"
+			]
+			description: [
+				"将 ME 存储总线接入到 Drawer Access Point，将机器产出的物品存放至连接到 DAP 的抽屉里，即可完成一个输出缓存系统。"
+				"想要向机器中输入物品，使用 ME 接口请求存储网络即可。"
+			]
+			id: "5880773EF26D51A2"
+			tasks: [{
+				id: "107A051E3506A520"
+				title: "自动补货系统"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "54969ACE41027F24"
+			tasks: [{
+				id: "1A64D604AF6545EF"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "【进阶自动化】应用能源高级应用"
+}

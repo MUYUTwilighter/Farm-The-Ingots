@@ -1,0 +1,16 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "ad_astra:calorite_ingot"
+    },
+    {
+      "item": "ad_astra:calorite_ingot"
+    }
+  ],
+  "output": [
+    {
+      "item": "botania:elementium_ingot"
+    }
+  ]
+}

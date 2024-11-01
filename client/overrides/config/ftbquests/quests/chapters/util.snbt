@@ -1,0 +1,22 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "util"
+	group: ""
+	id: "17F135ED513C6E7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "31DBE67128A47983"
+		tasks: [{
+			dimension: "ad_astra:glacio"
+			icon: "ad_astra:glacio_globe"
+			id: "7DE476CB58BCCA33"
+			type: "dimension"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "util"
+}

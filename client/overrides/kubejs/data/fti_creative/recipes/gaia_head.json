@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "S": {
+            "item": "spontaneous-replace:eerie_rind"
+        },
+        "H": {
+            "item": "minecraft:dragon_head"
+        },
+        "I": {
+            "item": "ad_astra:ice_shard"
+        },
+        "R": {
+            "item": "fruitfulfun:redlove"
+        },
+        "E": {
+            "item": "minecraft:echo_shard"
+        },
+        "M": {
+            "tag": "botania:ancient_wills"
+        }
+    },
+    "pattern": [
+        "SHS",
+        "IRI",
+        "EME"
+    ],
+    "result": {
+        "item": "botania:gaia_head"
+    }
+}

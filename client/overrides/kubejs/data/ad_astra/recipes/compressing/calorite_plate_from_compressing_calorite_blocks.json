@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:implosion_compressor",
+  "duration": 45,
+  "eu": 20,
+  "item_inputs": [
+    {
+      "tag": "ad_astra:calorite_blocks",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "ad_astra:calorite_plate",
+      "amount": 9
+    }
+  ]
+}
