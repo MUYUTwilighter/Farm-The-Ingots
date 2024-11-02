@@ -1,12 +1,12 @@
 @echo off
 
-set installer="fabric-server-mc.1.20.1-loader.0.16.7-launcher.1.0.1.jar"
+set installer="fabric-server-mc.${minecraft_version}-loader.${loader_version}-launcher.${launcher_version}.jar"
 set java_path=java
 
 :: if not exist, download fabric installer
 
 if not exist %installer% (
-    curl -o %installer% "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.16.7/1.0.1/server/jar"
+    curl -o %installer% "https://meta.fabricmc.net/v2/versions/loader/${minecraft_version}/${loader_version}/${launcher_version}/server/jar"
 )
 
 :: run fabric installer

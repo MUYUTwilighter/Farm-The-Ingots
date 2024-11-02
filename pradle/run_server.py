@@ -1,14 +1,18 @@
 from subprocess import run
-from os import getcwd
 from os.path import join
-from shutil import move
 
-src_path = join(getcwd(), "./server")
-dst_path = join(getcwd(), "./run")
+from lib import properties, copy_content, fhandle_placeholders
 
-move(src_path, dst_path)
+server_path = properties["path"]["server"]
+common_path = properties["path"]["common"]
+run_path = properties["path"]["run"]
 
-bat_path = join(getcwd(), "./server/start.bat")
-work_path = join(getcwd(), "./run")
+print("Preparing working environment")
+copy_content(server_path, run_path)
+copy_content(common_path, run_path)
 
-run(bat_path, cwd=work_path, shell=True)
+bat_path = join(run_path, "start.bat")
+fhandle_placeholders(bat_path)
+
+print("Running server")
+run("start.bat", cwd=run_path, shell=True)
