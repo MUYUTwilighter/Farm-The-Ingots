@@ -2,15 +2,15 @@
   "type": "minecraftModpack",
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Farm The Ingots",
+  "name": "${pack_name}",
   "version": "${version}",
   "author": "MUYU_Twilighter",
   "overrides": "overrides",
   "minecraft": {
-    "version": "1.20.1",
+    "version": "${minecraft_version}",
     "modLoaders": [
       {
-        "id": "fabric-0.16.7",
+        "id": "fabric-${loader_version}",
         "primary": true
       }
     ]
@@ -929,11 +929,6 @@
     {
       "projectID": 315811,
       "fileID": 4611154,
-      "required": true
-    },
-    {
-      "projectID": 833414,
-      "fileID": 4984047,
       "required": true
     }
   ]

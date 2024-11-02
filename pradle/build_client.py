@@ -18,4 +18,4 @@ archive_name = properties["archive_base_name"] + '-client-' + properties["versio
 archive_cache(archive_name)
 
 clear_cache()
-print(f"Successfully built client archive {archive_name}")
+print(f"Successfully built client archive {archive_name}\n")
