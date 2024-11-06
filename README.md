@@ -11,24 +11,43 @@ With farming, you could build grand multi-block machines, explore all the danger
 
 This modpack contains full guidance (including issue resolver) in the FTB quest book, so you really need to read that book very often.
 
-# Installation
+# Client installation
 
 You are suggested to use [Hello! Minecraft Launcher 3](https://github.com/HMCL-dev/HMCL/releases).
 
 1. Download the latest version of the modpack zip.
 2. Drag the zip file into HMCL.
+3. To optimize threading, you may change settings `Settings->Video Settings->Performance->Thread`. Half of the maximum is recommended.
 
-# Optinal Features
+# Server installation
 
-1. Distant Horizon is capatible with client! Download [here](https://www.curseforge.com/minecraft/mc-mods/distant-horizons/files/all?page=1&pageSize=20&version=1.20.1&gameVersionTypeId=4) or [here](https://modrinth.com/mod/distanthorizons/versions?g=1.20.1&l=fabric) then put the file into `<GameDir/mods>`.
-2. Full resource pack feature is supported. Find and download resource packs [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=texture-packs) or [here](https://modrinth.com/resourcepacks), then put the downloaded files into `<GameDir>/resourcepacks`.
-3. Shaders are supported by default but you need to download shaderpacks from [here](https://modrinth.com/shaders) and [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=shaders), then put the downloaded files into `<GameDir>/shaderpacks`.
+1. Download `Farm.The.Ingots-server.zip` from [release](https://github.com/MUYUTwilighter/Farm-The-Ingots/releases/latest/download/Farm.The.Ingots-server.zip)
+2. Unzip the file to a prepared directory, you may not change it later.
+3. There is an integrated `server.properties`, if you want to change some properties, do it here.
+4. Run `start.bat`. If your default java is not java 17 (or higher), specify `java_path` by edit this file.
+5. An `eula.txt` file generated on the first launch, change `eula=false` to `enla=true` to show agreement to the End-user License Agreement from Mojang.
+6. Rerun `start.bat`.
 
-# Server
+# FTI Essential Features
 
-1. Download and run latest fabric server installer **for 1.20.1** from [fabric.net](https://fabricmc.net/use/server/)
-2. Move files inside `./overrides` into your server folder, the `mods`, `crops`, etc. should be in the same position as the server jar.
-3. Run like any other mc server!
+FTI Essential Features is a mod dedicatedly built for this modpack *(That's why it's not published)* to implement some necessary features.
+
+To avoid confusions, I assume it's vital to introduce this mod.
+
+## Features
+
+- Preventing players from entering Glacio dimension `ad_astra:glacio` from Ad Astra when they are not **fully** equipped with Jet Suit
+- Add custom music to Glacio dimension `ad_astra:glacio` from Ad Astra
+- Add options to configure max ench-level of Tool Leveling Rework
+- Add options to toggle visibility of flowing items in pipes from Modern Dynamic (Greatly enhance frame rate when not visible)
+- Add options to completely disable the visibility of item rendering in drawer blocks from Extended Drawers.
+
+
+# Other Features
+
+1. Full resource pack feature is supported. Find and download resource packs [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=texture-packs) or [here](https://modrinth.com/resourcepacks), then put the downloaded files into `<GameDir>/resourcepacks`.
+2. Shaders are supported by default but you need to download shaderpacks from [here](https://modrinth.com/shaders) and [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=shaders), then put the downloaded files into `<GameDir>/shaderpacks`.
+3. This modpack integrates with [Yes Steve Model](https://modrinth.com/mod/yes-steve-model), which allows you to modify the player model.
 
 # License
 

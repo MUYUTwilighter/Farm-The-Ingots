@@ -1,7 +1,0 @@
-{
-	id: "35285BEECE4C98EE"
-	loot_size: 1
-	order_index: 1
-	rewards: [{ item: "farmersdelight:cabbage_rolls" }]
-	title: "cabbage rolls"
-}

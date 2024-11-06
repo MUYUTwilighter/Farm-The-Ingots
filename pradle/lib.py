@@ -5,10 +5,48 @@ from shutil import rmtree, copytree, copy2
 import re
 import zipfile
 
+indent = "  "
+indent_level = 0
+
+def log(text: str, no_indent: bool = False) -> None:
+    print("" if no_indent else indent * indent_level + text)
+
+def merge_nested_dicts(d1, d2):
+    for key, value in d2.items():
+        if key in d1 and isinstance(d1[key], dict) and isinstance(value, dict):
+            merge_nested_dicts(d1[key], value)
+        else:
+            d1[key] = value
+    return d1
+
+default_properties = {
+    "version": None,
+    "pack_name": "Example Modpack",
+    "archive_base_name": "Example.Modpack",
+    "minecraft_version": None,
+    "loader_version": None,
+    "launcher_version": None,
+    "java_version": None,
+    "path": {
+        "client": "client",
+        "server": "server",
+        "common": "common",
+        "cache": ".pradle/cache",
+        "build": ".pradle/build",
+        "run": "run"
+    }
+}
 properties = {}
-with open("properties.json") as f:
-    properties = load(f)
-    f.close()
+try:
+    with open("properties.json") as f:
+        properties = load(f)
+        f.close()
+except FileNotFoundError as e:
+    log("Unable to find properties.json")
+except Exception as e:
+    log("Error reading properties.json")
+    log(e, True)
+properties = merge_nested_dicts(default_properties, properties)
 
 def validate_path(path: str) -> None:
     if (not isdir(path)):
@@ -20,13 +58,16 @@ def clear_cache() -> None:
 
     :return: None
     """
-    print("Clearing cache")
+    global indent_level
+    indent_level += 1
+    log("Clearing cache")
     CACHE_PATH = properties["path"]["cache"]
     validate_path(CACHE_PATH)
     rmtree(CACHE_PATH)
     makedirs(CACHE_PATH)
+    indent_level -= 1
 
-def copy_content(src: str, dst: str) -> None:
+def copy_content(src: str, dst: str, recursive: bool = False) -> None:
     """
     Copies all contents from the source directory to the destination directory.
 
@@ -43,9 +84,12 @@ def copy_content(src: str, dst: str) -> None:
         s = join(src, item)
         d = join(dst, item)
         if isdir(s):
-            if exists(d):
-                rmtree(d)
-            copytree(s, d)
+            if recursive:
+                copy_content(s, d, recursive)
+            else:
+                if exists(d):
+                    rmtree(d)
+                copytree(s, d)
         else:
             copy2(s, d)
 
@@ -67,6 +111,7 @@ def get_placeholder_value(key: list[str], **kwargs: list[any] | dict[any, any]) 
     :return: The value found at the given key, or raise KeyError if not found.
     :raises KeyError: If the key is not found in either kwargs or properties.
     """
+    tmp = None
     try:
         tmp = kwargs
         for sep in key:
@@ -80,8 +125,11 @@ def get_placeholder_value(key: list[str], **kwargs: list[any] | dict[any, any]) 
             tmp = tmp[sep]
         return tmp
     except KeyError:
-        print(f"Placeholder {key} not found in neither properties nor kwargs")
-        raise KeyError(key)
+        global indent_level
+        indent_level += 1
+        log(f"Unable to find key {key} in either kwargs or properties")
+        indent_level -= 1
+    
 
 def get_placeholders_values(keys: list[str], **kwargs: list[any] | dict[any, any]) -> dict[str, any]:
     """
@@ -142,7 +190,9 @@ def fhandle_placeholders(file_path: str, **kwargs: list[any] | dict[any, any]):
         file_path (str): The path to the file to read and write.
         **kwargs (list[any] | dict[any, any]): The values to replace placeholders with.
     """
-    print("Handling placeholders in " + file_path)
+    global indent_level
+    indent_level += 1
+    log("Handling placeholders in " + file_path)
     content = ""
     with open(file_path) as f:
         content = f.read()
@@ -151,6 +201,7 @@ def fhandle_placeholders(file_path: str, **kwargs: list[any] | dict[any, any]):
     with open(file_path, "w") as f:
         f.write(content)
         f.close()
+    indent_level -= 1
 
 def archive_cache(archive_name: str) -> None:
     """
@@ -162,7 +213,9 @@ def archive_cache(archive_name: str) -> None:
     Returns:
         None
     """
-    print("Archiving cache to " + archive_name + ".zip")
+    global indent_level
+    indent_level += 1
+    log("Archiving cache to " + archive_name + ".zip")
     CACHE_PATH = properties["path"]["cache"]
     BUILD_PATH = properties["path"]["build"]
     validate_path(CACHE_PATH)
@@ -172,6 +225,7 @@ def archive_cache(archive_name: str) -> None:
             for file in files:
                 zipf.write(join(root, file), join(relpath(root, CACHE_PATH), file))
         zipf.close()
+    indent_level -= 1
 
 def copy_content2cache(src: str) -> None:
     """
@@ -183,7 +237,28 @@ def copy_content2cache(src: str) -> None:
     Returns:
         None
     """
-    print("Copying " + src + " to cache")
+    global indent_level
+    indent_level += 1
+    log("Copying " + src + " to cache")
     CACHE_PATH = properties["path"]["cache"]
     validate_path(CACHE_PATH)
-    copy_content(src, CACHE_PATH)
+    copy_content(src, CACHE_PATH, recursive=True)
+    indent_level -= 1
+
+def copy_content2run(src: str) -> None:
+    """
+    Copies the contents from the given source directory to the run directory.
+
+    Args:
+        src (str): The source directory path.
+
+    Returns:
+        None
+    """
+    global indent_level
+    indent_level += 1
+    log("Copying " + src + " to run")
+    RUN_PATH = properties["path"]["run"]
+    validate_path(RUN_PATH)
+    copy_content(src, RUN_PATH)
+    indent_level -= 1

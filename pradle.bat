@@ -11,6 +11,9 @@ if "%1" == "build" (
     )
 ) else if "%1" == "runServer" (
     python pradle/run_server.py
+) else if "%1" == "init" (
+    shift
+    python pradle/init.py %*
 ) else if not "%1" == "" (
     echo Unknown command "%1"
 ) else (

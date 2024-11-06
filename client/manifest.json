@@ -5,7 +5,7 @@
   "name": "${pack_name}",
   "version": "${version}",
   "author": "MUYU_Twilighter",
-  "overrides": "overrides",
+  "overrides": ".",
   "minecraft": {
     "version": "${minecraft_version}",
     "modLoaders": [
@@ -929,6 +929,11 @@
     {
       "projectID": 315811,
       "fileID": 4611154,
+      "required": true
+    },
+    {
+      "projectID": 508933,
+      "fileID": 5689279,
       "required": true
     }
   ]

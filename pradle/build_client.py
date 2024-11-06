@@ -1,8 +1,9 @@
 from os.path import join
 
-from lib import properties, clear_cache, fhandle_placeholders, copy_content2cache, archive_cache
+from lib import properties, clear_cache, fhandle_placeholders, copy_content2cache, archive_cache, indent_level
 
 print("Building client")
+indent_level += 1
 clear_cache()
 
 CLIENT_PATH = properties["path"]["client"]
@@ -18,4 +19,5 @@ archive_name = properties["archive_base_name"] + '-client-' + properties["versio
 archive_cache(archive_name)
 
 clear_cache()
+indent_level -= 1
 print(f"Successfully built client archive {archive_name}\n")
