@@ -40,7 +40,8 @@ To avoid confusions, I assume it's vital to introduce this mod.
 - Add custom music to Glacio dimension `ad_astra:glacio` from Ad Astra
 - Add options to configure max ench-level of Tool Leveling Rework
 - Add options to toggle visibility of flowing items in pipes from Modern Dynamic (Greatly enhance frame rate when not visible)
-- Add options to completely disable the visibility of item rendering in drawer blocks from Extended Drawers.
+- Add options to completely disable the visibility of item rendering in drawer blocks from Extended Drawers.\
+- Automatically disable Distant Horizons when player is not the host, and automatically enable it when the player is in single player or is the host.
 
 
 # Other Features
@@ -48,6 +49,7 @@ To avoid confusions, I assume it's vital to introduce this mod.
 1. Full resource pack feature is supported. Find and download resource packs [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=texture-packs) or [here](https://modrinth.com/resourcepacks), then put the downloaded files into `<GameDir>/resourcepacks`.
 2. Shaders are supported by default but you need to download shaderpacks from [here](https://modrinth.com/shaders) and [here](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=shaders), then put the downloaded files into `<GameDir>/shaderpacks`.
 3. This modpack integrates with [Yes Steve Model](https://modrinth.com/mod/yes-steve-model), which allows you to modify the player model.
+4. From `0.1.4`, This modpack integrates with [Distant Horizons](https://modrinth.com/mod/distanthorizons), while it will be automatically disabled when you are not a host to keep compatibility with multiplayer.
 
 # License
 

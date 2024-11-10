@@ -1,14 +1,7 @@
 {
   "plantEnable": true,
   "plantLarge": true,
-  "blackListEnable": true,
   "multiThread": true,
-  "allowSapling": true,
-  "allowCrop": true,
-  "allowMushroom": true,
-  "allowFungus": true,
-  "allowFlower": true,
-  "allowOther": false,
   "showTitleOnOpConnected": false,
   "ignoreShape": false,
   "warnTaskQueue": true,
@@ -17,6 +10,18 @@
   "avoidDense": 5,
   "playerAround": 2,
   "maxTask": 1000,
-  "language": "en_us",
-  "blackList": []
+  "language": "zh_cn",
+  "blacklist": [],
+  "whitelist": [
+    "#minecraft:saplings",
+    "#minecraft:flowers",
+    "#c:seeds",
+    "minecraft:sugar_cane",
+    "#c:mushrooms",
+    "minecraft:nether_wart",
+    "minecraft:torchflower_seeds",
+    "minecraft:cactus",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus"
+  ]
 }

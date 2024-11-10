@@ -448,6 +448,80 @@
 			x: 6.5d
 			y: 2.0d
 		}
+		{
+			id: "6681321F1B497415"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @p [{\"text\":\"当你手持潜影盒时，对着空气右键即可在未放置它的时候打开它。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "5DC96D73215B786C"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "56E6EB3386AA206E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:shulker_boxes"
+					}
+				}
+				title: "Any #c:shulker_boxes"
+				type: "item"
+			}]
+			title: "潜影盒"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "50BAB97624CA14A8"
+			rewards: [{
+				auto: "no_toast"
+				command: "/tellraw @p [{\"text\":\"如果你没有启用 YSM 玩家模型，并且你不想显示身上穿着的盔甲时，你可以将 玻璃盔甲 放置在盔甲栏旁的时装栏。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "53676925745554D4"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "05A2B4DC296BADE7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:armors"
+					}
+				}
+				title: "Any #c:armors"
+				type: "item"
+			}]
+			title: "时装盔甲"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "2C1FF84A62A6190B"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @p [{\"text\":\"恭喜你获得了鞘翅！别忘了放进你专用的鞘翅插槽里。\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				id: "124E61572F6391B1"
+				title: " "
+				type: "command"
+			}]
+			tasks: [{
+				id: "4B94C735BA2515A3"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "鞘翅插槽"
+			x: 12.5d
+			y: 0.0d
+		}
 	]
 	subtitle: ["有些东西虽然没有必要，但是很有意思"]
 	title: "&2杂项&r"
